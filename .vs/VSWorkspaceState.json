@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app1",
+    "\\app1\\src",
+    "\\app1\\src\\app",
+    "\\app1\\src\\app\\painel",
+    "\\app1\\src\\app\\progresso",
+    "\\app1\\src\\app\\tentativas",
+    "\\app1\\src\\app\\topo"
+  ],
+  "SelectedNode": "\\app1\\src\\app\\progresso\\progresso.component.html",
+  "PreviewInSolutionExplorer": false
+}
