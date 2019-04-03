@@ -1,3 +1,7 @@
+<!---
 <img [src]="coracaoVazio">
 <img [src]="coracaoCheio">
 <img [src]="coracaoCheio">
+ -->
+
+<img *ngForce="let coracao of coracaoes" [src] ="coracao.exibeCoracao()"/>
