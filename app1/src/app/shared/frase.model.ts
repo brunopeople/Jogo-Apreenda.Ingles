@@ -1,4 +1,3 @@
 export class Frase {
-
-	constructor(public fraseEng: string, public frasePTBr: string){}
+    constructor(public fraseEng: string, public frasePtBr: string) { }
 }
