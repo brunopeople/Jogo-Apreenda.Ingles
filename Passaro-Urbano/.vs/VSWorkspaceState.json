@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\home",
+    "\\src\\app\\rodape",
+    "\\src\\app\\shared",
+    "\\src\\app\\topo",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\app\\topo\\topo.component.css",
+  "PreviewInSolutionExplorer": false
+}
