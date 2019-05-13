@@ -1,14 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\e2e\\src",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\home",
-    "\\src\\app\\rodape",
-    "\\src\\app\\shared",
-    "\\src\\app\\topo",
-    "\\src\\assets"
+    "\\src\\app\\home"
   ],
-  "SelectedNode": "\\src\\app\\topo\\topo.component.css",
+  "SelectedNode": "\\src\\app\\app.component.html",
   "PreviewInSolutionExplorer": false
 }

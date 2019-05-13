@@ -15,7 +15,18 @@ public ofertas: Oferta[]
   constructor(private ofertasService: OfertasService) { }
 
   ngOnInit() {
-    this.ofertas = this.ofertasService.getOfertas()
-  }
+    //this.ofertas = this.ofertasService.getOfertas()
+  
 
-}
+  this.ofertasService.getOfertas()
+  .then((ofertas: Oferta[] ) => {
+  console.log('a função resolve() foi resolvida depois de 3 segundos')
+  this.ofertas = ofertas
+
+  })
+  .catch(( param: any) => {
+    console.log(param)
+      })
+    }
+
+ }
