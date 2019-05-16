@@ -1,27 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpModule} from '@angular/http'
+import { HttpModule } from '@angular/http'
+import { RouterModule } from '@angular/router'
 
+import { ROUTES } from './app.routes'
 
 import { AppComponent } from './app.component';
+import { TopoComponent } from './topo/topo.component';
 import { HomeComponent } from './home/home.component';
 import { RodapeComponent } from './rodape/rodape.component';
-import { TopoComponent } from './topo/topo.component';
+import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { DiversaoComponent } from './diversao/diversao.component';
-import { RestauranteComponent } from './restaurante/restaurante.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TopoComponent,
     HomeComponent,
     RodapeComponent,
-    TopoComponent,
-    DiversaoComponent,
-    RestauranteComponent
+    RestaurantesComponent,
+    DiversaoComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]

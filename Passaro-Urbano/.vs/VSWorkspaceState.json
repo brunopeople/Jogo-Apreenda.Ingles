@@ -3,9 +3,7 @@
     "",
     "\\e2e\\src",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\home"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\app.component.html",
   "PreviewInSolutionExplorer": false
 }
