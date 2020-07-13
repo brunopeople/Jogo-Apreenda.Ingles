@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './progresso.component.html',
   styleUrls: ['./progresso.component.css']
 })
-export class ProgressoComponent implements OnInit { 
+export class ProgressoComponent implements OnInit {
 
   @Input() public progresso: number = 0
 
